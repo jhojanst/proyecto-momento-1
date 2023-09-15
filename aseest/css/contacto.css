@@ -1,0 +1,45 @@
+body {
+    text-decoration: none;
+    color: rgb(19, 17, 17);
+    font-size: 0.8rem;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: #e6f0ed;
+    padding: 1rem 2rem;
+    display: inline-block;
+    align-self: center;
+}
+
+
+#imagen{
+    width: 200px;
+    margin-left: 900px;
+    margin-top: -50px;
+      
+}
+#logo-grande{
+    text-align: center; 
+}
+
+#redes-sociales{
+    text-align: center;
+}
+
+#pagina-oficial{
+    text-align: center;
+}
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 150px;
+    
+}

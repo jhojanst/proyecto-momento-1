@@ -1,0 +1,134 @@
+body {
+    text-decoration: none;
+    color: rgb(19, 17, 17);
+    font-size: 0.8rem;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: #e6f0ed;
+    padding: 1rem 2rem;
+    display: inline-block;
+    align-self: center;
+}
+#primera-seccion-nav>p{
+    background-attachment: fixed;
+    height: 100px;
+    color: black;
+}
+
+#primera-seccion{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+}
+#primera-seccion-izquierda{
+    flex: 1;
+}
+
+#primera-seccion-izquierda >h3{
+    text-transform: uppercase;
+    font-family: "",sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+ 
+#primera-seccion-izquierda >p{
+    margin-bottom: 4rem;
+
+}
+
+#primera-seccion-derecha{
+    flex: 2;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px 10px;
+    justify-items: center;
+    align-items: center;
+}
+
+#primera-seccion-derecha >img{
+    max-width: 100%;
+
+}
+#primera-seccion-derecha >hr{
+    width: 4.5rem;
+    border-color: #44bd32;
+    margin-left: 0;
+    margin-bottom: 3rem;
+
+} 
+
+#primera-seccion{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+}
+#primera-seccion-izquierda{
+    flex: 1;
+}
+
+#primera-seccion-izquierda >h3{
+    text-transform: uppercase;
+    font-family: "",sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+ 
+#primera-seccion-izquierda >p{
+    margin-bottom: 4rem;
+
+}
+
+#segunda-seccion{
+    width: 80%;
+    margin: 1px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+}
+#segunda-seccion-derecha{
+    flex: 2;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px 10px;
+    justify-items: center;
+    align-items: center;
+}
+
+#segunda-seccion-derecha >img{
+    max-width: 100%;
+
+}
+#segunda-seccion-derecha >hr{
+    width: 4.5rem;
+    border-color: #44bd32;
+    margin-left: 0;
+    margin-bottom: 3rem;
+
+} 
+
+
+footer{
+    background-color: black;
+    color: white;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
